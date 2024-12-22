@@ -4,30 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
     <title>Shelter</title>
 </head>
 
 <body>
     <section class="background-wrapper">
+        <img class="background-wrapper__image" src="img/start-screen-gradient-background.jpg">
         <header class="header">
-            <div class="header__wrapper-logo">
+            <a href="#" class="header__wrapper-logo">
                 <p class="header__logo">Cozy House</p>
                 <p class="header__logo-description">Shelter for pets in Boston</p>
-            </div>
+            </a>
             <nav class="header__navigation">
                 <ul class="header__list">
                     <li class="header__item">
                         <a href="#" class="header__link header__link--active">About the shelter</a>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">Our pets</a>
+                        <a href="pets.html" class="header__link">Our pets</a>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">Help the shelter</a>
+                        <a href="#help" class="header__link">Help the shelter</a>
                     </li>
                     <li class="header__item">
-                        <a href="#" class="header__link">Contacts</a>
+                        <a href="#footer" class="header__link">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -39,7 +40,7 @@
                     We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or
                     she will love you more than anybody else in the world, you will see!
                 </p>
-                <button class="not-only__button fill-button">Make a friend</button>
+                <a href="#our-friends" class="not-only__button fill-button">Make a friend</a>
             </div>
             <img src="img/start-screen-puppy.png" alt="Little puppy." width="698" height="728">
         </div>
@@ -57,7 +58,7 @@
                 of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
         </div>
     </section>
-    <section class="our-friends">
+    <section class="our-friends" id="our-friends">
         <h2 class="our-friends__title title">Our friends who
             are looking for a house</h2>
         <div class="our-friends__slider slider">
@@ -80,7 +81,7 @@
                     <button class="slide__button outline-button">Learn more</button>
                 </div>
             </div>
-            <button class="slider__button left"><svg width="14" height="6" viewBox="0 0 14 6" fill="none"
+            <button class="slider__button left" disabled><svg width="14" height="6" viewBox="0 0 14 6" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="#292929" />
                 </svg>
@@ -91,9 +92,9 @@
                 </svg>
             </button>
         </div>
-        <button class="our-friends__button fill-button">Get to know the rest</button>
+        <a href="pets.html" class="our-friends__button fill-button">Get to know the rest</a>
     </section>
-    <section class="help">
+    <section class="help" id="help">
         <h2 class="help__title title">How you can help
             our shelter</h2>
         <ul class="help__list">
@@ -140,16 +141,16 @@
         <div class="in-addition__content content">
             <h2 class="content__title">You can also make a donation</h2>
             <p class="content__description">Name of the bank / Type of bank account</p>
-            <div class="content__wrapper">
+            <a href="#" class="content__wrapper">
                 <img class="content__icon" src="img/icons/credit-card.svg" width="30" height="23">
                 <p class="content__number-card">8380 2880 8028 8791 7435</p>
-            </div>
+            </a>
             <small class="content__legal-information">Legal information and lorem ipsum dolor sit amet, consectetur
                 adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus
                 tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</small>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer__faq faq">
             <h2 class="faq__title title">For questions and suggestions</h2>
             <ul class="faq__list">
@@ -183,14 +184,14 @@
                         <path d="M11 0C4.93475 0 3.05176e-05 4.78519 3.05176e-05 10.6667C3.05176e-05 12.4323 0.455262 14.1829 1.32067 15.7357L10.3985 31.6562C10.5193 31.8685 10.7496 32 11 32C11.2504 32 11.4807 31.8685 11.6016 31.6562L20.6827 15.7304C21.5448 14.1829 22 12.4323 22 10.6666C22 4.78519 17.0653 0 11 0ZM19.4762 15.0905L11 29.9557L2.52717 15.0964C1.7732 13.7435 1.37507 12.2116 1.37507 10.6667C1.37507 5.52019 5.69278 1.33337 11 1.33337C16.3073 1.33337 20.625 5.52025 20.625 10.6667C20.625 12.2116 20.2269 13.7435 19.4762 15.0905Z" fill="#F1CDB3"/>
                         <path d="M11 5.33329C7.9674 5.33329 5.50008 7.72585 5.50008 10.6666C5.50008 13.6074 7.9674 16 11 16C14.0327 16 16.5 13.6074 16.5 10.6667C16.5 7.72592 14.0327 5.33329 11 5.33329ZM11 14.6667C8.72537 14.6667 6.87505 12.8724 6.87505 10.6667C6.87505 8.46092 8.72537 6.66667 11 6.66667C13.2747 6.66667 15.125 8.46092 15.125 10.6667C15.125 12.8724 13.2747 14.6667 11 14.6667Z" fill="#F1CDB3"/>
                         </svg>
-                        <p class="adress__description">1 Central Street, Boston (entrance from the store)</p>
+                        <a href="https://maps.app.goo.gl/ytp8eZsTFeRoAC7Z7" target="_blank" rel="noopener noreferrer" class="adress__description">1 Central Street, Boston (entrance from the store)</a>
                 </li>
                 <li class="adress__item">
                     <svg width="22" height="32" viewBox="0 0 22 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M11 0C4.93475 0 3.05176e-05 4.78519 3.05176e-05 10.6667C3.05176e-05 12.4323 0.455262 14.1829 1.32067 15.7357L10.3985 31.6562C10.5193 31.8685 10.7496 32 11 32C11.2504 32 11.4807 31.8685 11.6016 31.6562L20.6827 15.7304C21.5448 14.1829 22 12.4323 22 10.6666C22 4.78519 17.0653 0 11 0ZM19.4762 15.0905L11 29.9557L2.52717 15.0964C1.7732 13.7435 1.37507 12.2116 1.37507 10.6667C1.37507 5.52019 5.69278 1.33337 11 1.33337C16.3073 1.33337 20.625 5.52025 20.625 10.6667C20.625 12.2116 20.2269 13.7435 19.4762 15.0905Z" fill="#F1CDB3"/>
                         <path d="M11 5.33329C7.9674 5.33329 5.50008 7.72585 5.50008 10.6666C5.50008 13.6074 7.9674 16 11 16C14.0327 16 16.5 13.6074 16.5 10.6667C16.5 7.72592 14.0327 5.33329 11 5.33329ZM11 14.6667C8.72537 14.6667 6.87505 12.8724 6.87505 10.6667C6.87505 8.46092 8.72537 6.66667 11 6.66667C13.2747 6.66667 15.125 8.46092 15.125 10.6667C15.125 12.8724 13.2747 14.6667 11 14.6667Z" fill="#F1CDB3"/>
                         </svg>
-                        <p class="adress__description">18 South Park, London</p>
+                        <a href="https://maps.app.goo.gl/pWKgWNwenA3T1s2o9" target="_blank" rel="noopener noreferrer" class="adress__description">18 South Park, London</a>
                 </li>
             </ul>
         </div>
