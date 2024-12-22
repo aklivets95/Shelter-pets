@@ -1,3 +1,7 @@
+.background-wrapper {
+    position: relative;
+}
+
 .background-wrapper__image {
     position: absolute;
     width: 100%;
