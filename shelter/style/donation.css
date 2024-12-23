@@ -1,0 +1,59 @@
+.donation {
+    background-color: #F6F6F6;
+}
+
+.donation__wrapper {
+    box-sizing: content-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.donation__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.donation__content-description {
+    color: #545454;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    margin: 0;
+}
+
+.donation__link {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    text-decoration: none;
+    color: #545454;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    background-color: #F1CDB3;
+    padding: 10px 15px;
+    align-self: flex-start;
+    border-radius: 9px;
+    transition: background-color 0.4s;
+
+}
+
+.donation__link:hover {
+    background-color: #FDDCC4;
+}
+
+.donation__legal-information {
+    max-width: 380px;
+    color: #B2B2B2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 18px;
+}
