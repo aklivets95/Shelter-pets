@@ -1,0 +1,21 @@
+.our-friends {
+    background-color: #F6F6F6;
+}
+
+.our-friends__wrapper {
+    padding: 80px 40px 100px;
+    box-sizing: content-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.our-friends__title {
+    text-align: center;
+}
+
+.our-friends__button {
+    align-self: center;
+}

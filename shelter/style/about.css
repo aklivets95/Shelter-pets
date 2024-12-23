@@ -1,0 +1,28 @@
+.about {
+    padding: 80px 40px 100px;
+    box-sizing: content-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.about__image {
+    margin-left: 175px;
+}
+
+.about__wrapper {
+    max-width: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about__description {
+    margin: 0;
+    color: #4C4C4C;
+    font-size: 15px;
+    line-height: 160%;
+    font-family: Arial, Helvetica, sans-serif;
+}

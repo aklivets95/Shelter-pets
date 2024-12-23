@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Georgia, serif;
+    font-size: 15px;
+}
+
+.fill-button {
+    text-decoration: none;
+    padding: 16px 45px;
+    color: #292929;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    transition: background-color 0.4s;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.fill-button:hover {
+    background-color: #FDDCC4;
+}
+
+.title {
+    margin: 0;
+    color: #545454;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    font-weight: normal;
+}

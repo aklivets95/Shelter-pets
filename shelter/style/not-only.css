@@ -23,23 +23,6 @@
     line-height: 160%;
 }
 
-.fill-button {
-    text-decoration: none;
-    padding: 16px 45px;
-    color: #292929;
-    background-color: #F1CDB3;
-    border-radius: 100px;
-    font-size: 17px;
-    transition: background-color 0.4s;
-    display: block;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
 .not-only__button {
     max-width: 207px;
-}
-
-.fill-button:hover {
-    background-color: #FDDCC4;
 }
