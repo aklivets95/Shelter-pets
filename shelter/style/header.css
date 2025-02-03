@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.header--white {
+    padding: 30px 40px;
+}
+
 .header__wrapper-logo {
     display: flex;
     flex-direction: column;
@@ -25,12 +29,20 @@
     letter-spacing: 2px;
 }
 
+.header__logo--white {
+    color: #545454;
+}
+
 .header__logo-description {
     margin: 0;
     color: #FFFFFF;
     font-family: Arial, sans-serif;
     font-size: 13px;
     letter-spacing: 1.5px;
+}
+
+.header__logo-description--white {
+    color: #292929;
 }
 
 .header__list {
@@ -49,8 +61,16 @@
     transition: color 0.4s;
 }
 
+.header__link--white {
+    color: #545454;
+}
+
 .header__link:hover {
     color: #FAFAFA;
+}
+
+.header__link--white:hover {
+    color: #292929;
 }
 
 .header__link--active {
@@ -59,7 +79,23 @@
     cursor: default;
 }
 
+.header__link--white-active {
+    color: #545454;
+    position: relative;
+    cursor: default;
+}
+
 .header__link--active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 3px;
+    background-color: #F1CDB3;
+}
+
+.header__link--white-active::before {
     content: "";
     position: absolute;
     left: 0;
