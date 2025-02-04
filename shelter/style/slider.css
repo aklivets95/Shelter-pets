@@ -31,24 +31,6 @@
     font-weight: normal;
 }
 
-.slide__button {
-    background-color: transparent;
-    border: none;
-    cursor: inherit;
-    color: #292929;
-    outline: 2px solid #F1CDB3;
-    outline-offset: -2px;
-    border-radius: 100px;
-    max-width: 187px;
-    width: 187px;
-    min-height: 52px;
-    padding: 15px 35px;
-    font-size: 17px;
-    line-height: 130%;
-    letter-spacing: 0.06em;
-    transition: background-color 0.4s;
-}
-
 .slide:hover {
     background-color: #FFFFFF;
 }
@@ -73,6 +55,7 @@
     cursor: pointer;
     outline: 2px solid #F1CDB3;
     outline-offset: -2px;
+    transition: background-color 0.4s;
 }
 
 .left {

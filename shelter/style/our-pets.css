@@ -1,0 +1,116 @@
+.main {
+    background-color: #F6F6F6;
+}
+
+.our-pets {
+    box-sizing: content-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 40px 100px;
+}
+
+.our-pets__title {
+    text-align: center;
+    margin: 0 0 60px;
+}
+
+.our-pets__list {
+    margin: 0 0 60px;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    column-gap: 40px;
+}
+
+.pet-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #FAFAFA;
+    padding-bottom: 30px;
+    border-radius: 9px 9px 0 0;
+    cursor: pointer;
+}
+
+.pet-card__image {
+    border-radius: 9px 9px 0 0;
+}
+
+.pet-card__name {
+    margin: 0;
+    color: #545454;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    font-weight: normal;
+}
+
+.pet-card:hover {
+    background-color: #FFFFFF;
+}
+
+.pet-card:hover .slide__button {
+    outline: none;
+    background-color: #FDDCC4;
+}
+
+.card-navigations {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-navigations__button {
+    border: none;
+    background-color: transparent;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+    outline: 2px solid #F1CDB3;
+    outline-offset: -2px;
+    transition: background-color 0.4s;
+}
+
+.card-navigations__button:disabled {
+    cursor: inherit;
+    outline-color: #CDCDCD;
+}
+
+.card-navigations__button:disabled svg path {
+    fill: #CDCDCD;
+}
+
+.card-navigations__button--back {
+    rotate: 180deg;
+}
+
+.card-navigations__button:hover:not(.card-navigations__button:disabled) {
+    background-color: #FDDCC4;
+    outline: none;
+}
+
+.card-navigations__page-number {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    outline-offset: -2px;
+    background-color: #F1CDB3;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 115%;
+    color: #292929;
+}
