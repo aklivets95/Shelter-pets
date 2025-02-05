@@ -19,10 +19,15 @@
     cursor: default;
     user-select: none;
     text-decoration: none;
+    transition: opacity 0.3s;
 }
 
 .header__wrapper-logo--active {
     cursor: pointer;
+}
+
+.header__wrapper-logo--active:hover {
+    opacity: 0.7;
 }
 
 .header__logo {

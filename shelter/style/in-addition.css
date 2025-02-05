@@ -1,8 +1,8 @@
-.donation {
+.in-addition {
     background-color: #F6F6F6;
 }
 
-.donation__wrapper {
+.in-addition__wrapper {
     box-sizing: content-box;
     max-width: 1200px;
     margin: 0 auto;
@@ -13,13 +13,13 @@
     gap: 30px;
 }
 
-.donation__content {
+.in-addition__content {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.donation__content-description {
+.in-addition__content-description {
     color: #545454;
     font-size: 15px;
     line-height: 110%;
@@ -27,7 +27,7 @@
     margin: 0;
 }
 
-.donation__link {
+.in-addition__link {
     display: flex;
     gap: 15px;
     align-items: center;
@@ -45,11 +45,11 @@
 
 }
 
-.donation__link:hover {
+.in-addition__link:hover {
     background-color: #FDDCC4;
 }
 
-.donation__legal-information {
+.in-addition__legal-information {
     max-width: 380px;
     color: #B2B2B2;
     font-family: Arial, Helvetica, sans-serif;
