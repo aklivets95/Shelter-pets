@@ -113,3 +113,9 @@
     height: 3px;
     background-color: #F1CDB3;
 }
+
+@media (max-width: 1029px) {
+    .header {
+        padding: 30px 30px 0;
+    }
+}

@@ -11,7 +11,10 @@
 
 <body>
     <section class="background-wrapper">
-        <img class="background-wrapper__image" src="img/start-screen-gradient-background.jpg" alt="background">
+        <picture>
+            <source srcset="img/start-screen-background-tablet.jpg" media="(max-width: 1029px)">
+            <img class="background-wrapper__image" src="img/start-screen-gradient-background.jpg" alt="background">
+        </picture>
         <header class="header">
             <a href="#" class="header__wrapper-logo">
                 <p class="header__logo">Cozy House</p>
@@ -43,7 +46,7 @@
                 </p>
                 <a href="#our-friends" class="not-only__button fill-button">Make a friend</a>
             </div>
-            <img src="img/start-screen-puppy.png" alt="Little puppy." width="698" height="728">
+            <img src="img/start-screen-puppy.png" class="not-only__image" alt="Little puppy." width="698" height="728">
         </div>
     </section>
     <section class="about">
