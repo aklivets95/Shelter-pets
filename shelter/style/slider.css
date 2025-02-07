@@ -4,8 +4,9 @@
 
 .slider__wrapper {
     display: flex;
-    gap: 90px;
-    justify-content: center;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 0 105px;
 }
 
 .slide {
@@ -15,12 +16,17 @@
     gap: 30px;
     background-color: #FAFAFA;
     border-radius: 9px;
-    padding: 0 0 9px;
+    padding: 0 0 30px;
     cursor: pointer;
+    max-width: 270px;
+    max-height: 435px;
+    aspect-ratio: 1/1;
 }
 
 .slide__image {
     border-radius: 9px;
+    width: 100%;
+    height: auto;
 }
 
 .slide__name {
