@@ -118,4 +118,11 @@
     .header {
         padding: 30px 30px 0;
     }
+
+    .header__list {
+        max-width: 443px;
+        width: 57.7vw;
+        gap: 0;
+        justify-content: space-between;
+    }
 }

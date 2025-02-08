@@ -23,3 +23,9 @@
 /* .our-friends__slider {
     margin-bottom: 20px;
 } */
+
+@media (max-width: 1029px) {
+    .our-friends__wrapper {
+        padding: 80px 30px 100px;
+    }
+}

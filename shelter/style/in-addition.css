@@ -57,3 +57,15 @@
     font-style: italic;
     line-height: 18px;
 }
+
+@media (max-width: 1029px) {
+    .in-addition__wrapper {
+        padding: 80px 30px 100px;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .in-addition__content {
+        order: -1;
+    }
+}

@@ -39,3 +39,19 @@
     line-height: 115%;
     letter-spacing: 0.06em;
 }
+
+@media (max-width: 1029px) {
+    .help {
+        padding: 80px 3 0px 100px;
+    }
+
+    .help__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 8.33vw;
+    }
+
+    .help__item {
+        gap: 29px;
+    }
+}

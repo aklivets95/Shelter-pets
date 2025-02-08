@@ -80,7 +80,7 @@
                         <p class="slide__name">Jennifer</p>
                         <button class="slide__button outline-button">Learn more</button>
                     </div>
-                    <div class="slider__slide slide">
+                    <div class="slider__slide slide slide--tablet">
                         <img class="slide__image" src="img/slide-image/pets-woody.jpg" width="270" height="270"
                             alt="Dog.">
                         <p class="slide__name">Woody</p>
@@ -161,7 +161,10 @@
         </div>
     </section>
     <footer class="footer" id="footer">
-        <img class="footer__background-image" src="img/footer-background.jpg" alt="background">
+        <picture>
+            <source srcset="img/footer-background-tablet.jpg" media="(max-width: 1029px)">
+            <img class="footer__background-image" src="img/footer-background.jpg" alt="background">
+        </picture>
         <div class="footer__wrapper">
                 <div class="footer__faq">
                     <h2 class="footer__faq-title title footer__title">For questions<br> and suggestions</h2>

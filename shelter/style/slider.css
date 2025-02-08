@@ -86,3 +86,21 @@
     background-color: #FDDCC4;
     outline: none;
 }
+
+@media (max-width: 1029px) {
+    .slider__wrapper {
+        margin: 0 8.33vw;
+        justify-content: space-between;
+        gap: 5.21vw;
+    }
+
+    .slide--tablet {
+        display: none;
+    }
+
+    .slide {
+        flex-grow: 1;
+        max-width: 350px;
+        max-height: 515px;
+    }
+}
