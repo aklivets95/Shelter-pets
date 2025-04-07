@@ -119,6 +119,10 @@
         padding: 30px 30px 0;
     }
 
+    .header--white {
+        padding: 30px 30px;
+    }
+
     .header__list {
         max-width: 443px;
         width: 57.7vw;
