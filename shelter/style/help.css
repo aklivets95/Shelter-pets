@@ -42,7 +42,7 @@
 
 @media (max-width: 1029px) {
     .help {
-        padding: 80px 3 0px 100px;
+        padding: 80px 30px 100px;
     }
 
     .help__list {
@@ -53,5 +53,29 @@
 
     .help__item {
         gap: 29px;
+    }
+}
+
+@media (max-width: 767px) {
+    .help {
+        padding: 42px 15px;
+    }
+
+    .help__list {
+        grid-template-columns: repeat(2, 40.625vw);
+        gap: clamp(30px, 9.375vw, 40px);
+    }
+
+    .help__item {
+        gap: 20px;
+    }
+
+    .help__item-description {
+        font-size: clamp(15px, 4.688vw, 20px);
+    }
+
+    .help__image {
+        width: clamp(50px, 15.625vw, 100px);
+        height: clamp(50px, 15.625vw, 100px);
     }
 }

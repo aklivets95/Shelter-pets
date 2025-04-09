@@ -29,3 +29,10 @@
         padding: 80px 30px 100px;
     }
 }
+
+
+@media (max-width: 767px) {
+    .our-friends__wrapper {
+        padding: 42px 10px;
+    }
+}

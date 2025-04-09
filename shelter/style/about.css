@@ -43,3 +43,32 @@
         margin: 0;
     }
 }
+
+@media (max-width: 767px) {
+    .about {
+        padding: 42px 10px;
+        gap: 42px;
+    }
+
+    .about__wrapper {
+        max-width: none;
+        gap: 0;
+    }
+
+    .about__title {
+        margin-bottom: 25px;
+    }
+    .about__title + .about__description {
+        margin-bottom: 22px;
+    }
+
+    .about__description {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .about__image {
+        width: 260px;
+        height: auto;
+    }
+}

@@ -104,3 +104,22 @@
         max-height: 515px;
     }
 }
+
+@media (max-width: 767px) {
+    .slider__wrapper {
+        justify-content: center;
+        margin: 0 15px 20px;
+    }
+    .slide--mobile {
+        display: none;
+    }
+    .slider__button {
+        position: static;
+    }
+
+    .slider__button-container {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+}
