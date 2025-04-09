@@ -55,3 +55,10 @@ body {
     letter-spacing: 0.06em;
     transition: background-color 0.4s;
 }
+
+@media (max-width: 767px) {
+    .title {
+        font-size: clamp(25px, 7.813vw, 40px);
+        text-align: center;
+    }
+}
