@@ -11,7 +11,10 @@
 
 <body>
     <section class="background-wrapper">
-        <img class="background-wrapper__image" src="img/start-screen-gradient-background.jpg" alt="background">
+        <picture>
+            <source srcset="img/start-screen-background-tablet.jpg" media="(max-width: 1029px)">
+            <img class="background-wrapper__image" src="img/start-screen-gradient-background.jpg" alt="background">
+        </picture>
         <header class="header">
             <a href="#" class="header__wrapper-logo">
                 <p class="header__logo">Cozy House</p>
@@ -33,6 +36,13 @@
                     </li>
                 </ul>
             </nav>
+            <button class="header__burger-button">
+                <svg width="30" height="22" viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="21" x2="30" y2="21" stroke="#F1CDB3" stroke-width="2" />
+                    <line y1="11" x2="30" y2="11" stroke="#F1CDB3" stroke-width="2" />
+                    <line y1="1" x2="30" y2="1" stroke="#F1CDB3" stroke-width="2" />
+                </svg>
+            </button>
         </header>
         <div class="not-only">
             <div class="not-only__text">
@@ -43,7 +53,7 @@
                 </p>
                 <a href="#our-friends" class="not-only__button fill-button">Make a friend</a>
             </div>
-            <img src="img/start-screen-puppy.png" alt="Little puppy." width="698" height="728">
+            <img src="img/start-screen-puppy.png" class="not-only__image" alt="Little puppy." width="698" height="728">
         </div>
     </section>
     <section class="about">
@@ -71,20 +81,21 @@
                         <p class="slide__name">Katrine</p>
                         <button class="slide__button outline-button">Learn more</button>
                     </div>
-                    <div class="slider__slide slide">
+                    <div class="slider__slide slide slide--mobile">
                         <img class="slide__image" src="img/slide-image/pets-jennifer.jpg" width="270" height="270"
                             alt="Small puppy.">
                         <p class="slide__name">Jennifer</p>
                         <button class="slide__button outline-button">Learn more</button>
                     </div>
-                    <div class="slider__slide slide">
+                    <div class="slider__slide slide slide--tablet">
                         <img class="slide__image" src="img/slide-image/pets-woody.jpg" width="270" height="270"
                             alt="Dog.">
                         <p class="slide__name">Woody</p>
                         <button class="slide__button outline-button">Learn more</button>
                     </div>
                 </div>
-                <button class="slider__button left slider__button--disabled" disabled><svg width="14" height="6"
+                <div class="slider__button-container">
+                    <button class="slider__button left slider__button--disabled" disabled><svg width="14" height="6"
                         viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="#292929" />
                     </svg>
@@ -94,6 +105,7 @@
                         <path d="M14 2V4H3V6L0 3L3 0V2H14Z" fill="#292929" />
                     </svg>
                 </button>
+                </div>
             </div>
             <a href="pets.html" class="our-friends__button fill-button">Get to know the rest</a>
         </div>
@@ -158,7 +170,10 @@
         </div>
     </section>
     <footer class="footer" id="footer">
-        <img class="footer__background-image" src="img/footer-background.jpg" alt="background">
+        <picture>
+            <source srcset="img/footer-background-tablet.jpg" media="(max-width: 1029px)">
+            <img class="footer__background-image" src="img/footer-background.jpg" alt="background">
+        </picture>
         <div class="footer__wrapper">
                 <div class="footer__faq">
                     <h2 class="footer__faq-title title footer__title">For questions<br> and suggestions</h2>
