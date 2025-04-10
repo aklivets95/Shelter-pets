@@ -20,6 +20,20 @@
     align-self: center;
 }
 
-.our-friends__slider {
+/* .our-friends__slider {
     margin-bottom: 20px;
+} */
+
+@media (max-width: 1029px) {
+    .our-friends__wrapper {
+        padding: 80px 30px 100px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .our-friends__wrapper {
+        padding: 42px 10px;
+        gap: 42px;
+    }
 }
