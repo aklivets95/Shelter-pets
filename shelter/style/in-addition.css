@@ -77,6 +77,7 @@
     }
     .in-addition__content {
         align-items: center;
+        gap: 22px;
     }
     .in-addition__content-description {
         letter-spacing: 0px;

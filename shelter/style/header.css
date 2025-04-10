@@ -118,7 +118,7 @@
     display: none;
     background-color: transparent;
     border: none;
-    padding: 4px;
+    padding: 0;
 }
 
 @media (max-width: 1029px) {

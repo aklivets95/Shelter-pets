@@ -34,5 +34,6 @@
 @media (max-width: 767px) {
     .our-friends__wrapper {
         padding: 42px 10px;
+        gap: 42px;
     }
 }
