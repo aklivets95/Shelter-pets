@@ -59,6 +59,7 @@
 @media (max-width: 767px) {
     .help {
         padding: 42px 15px;
+        gap: 40px;
     }
 
     .help__list {
