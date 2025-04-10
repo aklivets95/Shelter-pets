@@ -152,4 +152,10 @@
         justify-content: center;
         align-items: center;
     }
+    .header--white {
+        padding: 30px 20px;
+    }
+    .header__burger-button--white svg line {
+        stroke: #000;
+    }
 }
