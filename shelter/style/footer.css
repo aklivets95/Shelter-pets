@@ -127,4 +127,34 @@
         gap: 40px;
         align-items: center;
     }
+    .footer__faq {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__adress {
+        width: 100%;
+        max-width: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__adress-title {
+        margin: 0 30px 40px;
+    }
+
+    .footer__adress-list {
+        gap: 40px;
+    }
+
+    .footer__image {
+        width: 260px;
+        height: auto;
+        align-self: center;
+    }
+    .footer__faq-title br {
+        display: none;
+    }
 }
